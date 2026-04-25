@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Edge Barbers - Nairobi</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(180deg, #000, #111);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+header h1 {
+    color: gold;
+    letter-spacing: 2px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1517832606299-7ae9b720a186') center/cover;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    color: #ddd;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #1a1a1a;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: gold;
+}
+
+footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    color: #888;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Urban Edge</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Book</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Precision Cuts. Premium Experience.</h2>
+    <p>Nairobi’s go-to grooming lounge for the modern man</p>
+    <button class="btn">Book Appointment</button>
+</section>
+
+<section class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Fade & Cut</h3>
+            <p>KES 1,500</p>
+        </div>
+        <div class="card">
+            <h3>Beard Grooming</h3>
+            <p>KES 800</p>
+        </div>
+        <div class="card">
+            <h3>Full Grooming</h3>
+            <p>KES 2,500</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Why Choose Us</h2>
+    <p>Luxury service, top-tier barbers, chill vibes, and a space built for Nairobi’s elite.</p>
+</section>
+
+<section class="section">
+    <h2>Visit Us</h2>
+    <p>Westlands, Nairobi</p>
+    <p>Call/WhatsApp: +254 712 345 678</p>
+</section>
+
+<footer>
+    <p>© 2026 Urban Edge Barbers | Nairobi</p>
+</footer>
+
+</body>
+</html>
