@@ -3,21 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Gentry Cut | Nairobi Premium Barbershop</title>
+<title>Skyline Gentry Lounge | Nairobi Premium Grooming</title>
 
 <style>
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #f7f4ef;
+    background: #f7f7f7;
     color: #1a1a1a;
 }
 
 /* HEADER */
 header {
-    background: #111;
-    color: #fff;
-    padding: 20px;
+    background: #0d0d0d;
+    color: white;
+    padding: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,54 +28,54 @@ header h1 {
     letter-spacing: 2px;
 }
 
-/* HERO */
+/* HERO SKYLINE */
 .hero {
-    height: 85vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url('https://images.unsplash.com/photo-1520975922284-8b456906c813') center/cover;
+    height: 95vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5') center/cover;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
-    flex-direction: column;
+    padding: 20px;
 }
 
 .hero h2 {
-    font-size: 3em;
-    margin: 0;
+    font-size: 3.2em;
 }
 
 .hero p {
+    max-width: 700px;
+    opacity: 0.9;
     font-size: 1.2em;
-    max-width: 600px;
 }
 
 /* BUTTON */
 .btn {
-    background: #d4af37;
-    color: #111;
-    padding: 14px 28px;
-    border: none;
     margin-top: 20px;
-    cursor: pointer;
-    font-weight: bold;
+    background: #d4af37;
+    color: black;
+    padding: 14px 32px;
     border-radius: 30px;
     text-decoration: none;
+    font-weight: bold;
 }
 
-/* SECTIONS */
+/* SECTION */
 .section {
-    padding: 60px 20px;
+    padding: 70px 20px;
     text-align: center;
 }
 
 .section h2 {
-    color: #111;
+    margin-bottom: 10px;
 }
 
-/* SERVICES */
-.services {
+/* EXPERIENCE GRID */
+.grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,34 +84,44 @@ header h1 {
 
 .card {
     background: white;
+    width: 270px;
     padding: 25px;
-    width: 260px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .card h3 {
     color: #d4af37;
 }
 
-/* LIFESTYLE SECTION */
-.lifestyle {
-    background: #111;
+/* LOUNGE SECTION */
+.lounge {
+    background: #0d0d0d;
     color: white;
+    padding: 80px 20px;
 }
 
-.lifestyle p {
-    max-width: 700px;
+.lounge p {
+    max-width: 750px;
     margin: auto;
-    opacity: 0.8;
+    opacity: 0.85;
+}
+
+/* SKYLINE EXPERIENCE */
+.skyline {
+    background:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29') center/cover;
+    color: white;
+    padding: 90px 20px;
 }
 
 /* FOOTER */
 footer {
-    background: #000;
+    background: black;
     color: #aaa;
-    padding: 30px;
     text-align: center;
+    padding: 25px;
 }
 </style>
 
@@ -120,59 +130,82 @@ footer {
 <body>
 
 <header>
-    <h1>The Gentry Cut</h1>
+    <h1>Skyline Gentry Lounge</h1>
     <nav>
         <a href="#" style="color:white; margin-right:15px;">Home</a>
-        <a href="#" style="color:white;">Services</a>
+        <a href="#" style="color:white;">Experience</a>
     </nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-    <h2>Look Like You Belong In The Room</h2>
-    <p>Premium grooming for Nairobi’s modern gentlemen. Precision cuts, executive grooming, and a lifestyle upgrade.</p>
+    <h2>Grooming Above The City</h2>
+    <p>
+        A premium Nairobi grooming lounge inspired by skyline living,
+        executive comfort, and first-class luxury experiences.
+    </p>
 
-    <!-- WhatsApp Booking -->
-    <a class="btn" href="https://wa.me/254712345678?text=Hi%20I%20want%20to%20book%20a%20grooming%20session%20at%20The%20Gentry%20Cut">
-        Book on WhatsApp
+    <a class="btn"
+       href="https://wa.me/254712345678?text=Hi%20I%20want%20a%20premium%20grooming%20experience%20at%20Skyline%20Gentry">
+       Reserve Your Experience
     </a>
 </section>
 
+<!-- SERVICES -->
 <section class="section">
-    <h2>Signature Services</h2>
+    <h2>Signature Experiences</h2>
 
-    <div class="services">
+    <div class="grid">
         <div class="card">
-            <h3>Executive Fade</h3>
-            <p>KES 1,800</p>
+            <h3>Executive Precision Cut</h3>
+            <p>Clean, sharp, high-status grooming</p>
         </div>
 
         <div class="card">
-            <h3>Beard Sculpt</h3>
-            <p>KES 1,000</p>
+            <h3>Skyline Beard Sculpt</h3>
+            <p>Defined masculine detailing</p>
         </div>
 
         <div class="card">
-            <h3>Gentry Package</h3>
-            <p>KES 3,000</p>
+            <h3>VIP Grooming Lounge</h3>
+            <p>Relax, watch football, unwind</p>
+        </div>
+
+        <div class="card">
+            <h3>Youth Grooming</h3>
+            <p>Modern cuts for young gentlemen</p>
         </div>
     </div>
 </section>
 
-<section class="section lifestyle">
-    <h2>Nairobi Lifestyle Grooming</h2>
+<!-- LUXURY LOUNGE -->
+<section class="lounge">
+    <h2>First-Class Grooming Lounge Experience</h2>
     <p>
-        Built for men who move differently—entrepreneurs, creatives, professionals, and those who understand that appearance is influence.
+        Enjoy a private lounge-style grooming experience inspired by first-class airport cabins.
+        Relax with curated refreshments, live football screens, and a calm executive atmosphere
+        designed for modern Nairobi gentlemen.
     </p>
 </section>
 
+<!-- SKYLINE LIFESTYLE -->
+<section class="skyline">
+    <h2>Skyline Views & Executive Energy</h2>
+    <p>
+        Inspired by luxury high-rise living in Nairobi’s premium districts,
+        where grooming meets lifestyle, ambition, and presence.
+    </p>
+</section>
+
+<!-- LOCATION -->
 <section class="section">
-    <h2>Visit Us</h2>
-    <p>Westlands, Nairobi</p>
-    <p>Open: 9AM – 8PM Daily</p>
+    <h2>Location</h2>
+    <p>Westlands / Upperhill Inspired Luxury Concept</p>
+    <p>Open Daily: 9AM – 9PM</p>
 </section>
 
 <footer>
-    <p>© 2026 The Gentry Cut | Nairobi Premium Grooming Lounge</p>
+    © 2026 Skyline Gentry Lounge | Nairobi Premium Grooming Concept
 </footer>
 
 </body>
